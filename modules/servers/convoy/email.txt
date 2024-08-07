@@ -1,0 +1,15 @@
+<p>Dear {$client_name},<br /><br /><strong>PLEASE PRINT THIS MESSAGE FOR YOUR RECORDS - PLEASE READ THIS EMAIL IN FULL.</strong></p>
+<p>We are pleased to tell you that the server you ordered has now been set up and is operational.</p>
+<p><strong>Server Details<br /></strong>=============================</p>
+<p>{$service_product_name}</p>
+<p>Main IP: {$service_dedicated_ip}<br />Root pass: {$service_password}</p>
+<p>IP address allocation: <br />{$service_assigned_ips}</p>
+<p>Hostname: {$service_custom_fields.1}</p>
+<p><strong>Convoy Control Panel<br /></strong>=============================</p>
+<p>Convoy URL: <a href="https://yourvpsurl">https://yourvpsurl</a></p>
+<p>Email address: {$client_email}</p>
+<p>Password: {$client_custom_field_serverpass}</p>
+<p><strong>Support</strong><br />=============================<br />For any support needs, please open a ticket at <a href="{$whmcs_url}">{$whmcs_url}</a></p>
+<p>Please include any necessary information to provide you with faster service, such as root password, domain names, and a description of the problem / or assistance needed. This will speed up the support time by allowing our administrators to immediately begin diagnosing the problem.</p>
+<p>=============================</p>
+<p>{$signature}</p>
